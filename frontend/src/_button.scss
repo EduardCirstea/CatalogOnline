@@ -1,0 +1,21 @@
+.btn {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+
+  &-primary {
+    color: $primary-color;
+    background: rgb(203, 66, 66);
+  }
+  &-block {
+    display: inline-block;
+  }
+  &:hover {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+  }
+}

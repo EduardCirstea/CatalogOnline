@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+.btn {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn-primary {
+  color: #237684;
+  background: rgb(203, 66, 66);
+}
+.btn-block {
+  display: inline-block;
+}
+.btn:hover {
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.center-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 2.2;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.main-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.col-1 {
+  min-width: 280px;
+  border-right: 5px solid red;
+  height: 100%;
+  background-color: #237684;
+}
+
+.col-2 {
+  height: 100vh;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  font-family: inherit;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border: none;
+  outline: none;
+}
+
+.form-group label {
+  text-align: left;
+  display: block;
+  font-size: 14px;
+  margin: 0 0 5px 3px;
+}/*# sourceMappingURL=index.css.map */
