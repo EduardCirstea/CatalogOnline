@@ -1,1 +1,80 @@
-/*# sourceMappingURL=style.css.map */
+.home-wrapper {
+  margin-top: 20px;
+  padding: 20px 10px 10px;
+  border: 1px solid blue;
+  width: 600px;
+  position: relative;
+}
+.home-wrapper h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.home-wrapper p {
+  margin: 30px 0px 0px;
+  font-size: 14px;
+}
+.home-wrapper li {
+  font-size: 11px;
+  margin-left: 10px;
+}
+.home-wrapper .bold {
+  font-weight: bold;
+}
+.home-wrapper .red {
+  color: red;
+}
+.home-wrapper a {
+  text-decoration: underline;
+}
+
+.info {
+  position: absolute;
+  top: -20px;
+  left: -1px;
+  border: 1px solid blue;
+  padding: 0px 10px;
+  padding-top: 0;
+  border-bottom: none;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.termeni h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.termeni p {
+  font-size: 11px;
+}
+.termeni h3 {
+  font-size: 11px;
+  padding: 20px 0px 10px;
+}
+.termeni .bold {
+  font-weight: bold;
+}
+
+.profile {
+  width: 800px;
+  border: 1px solid red;
+}
+.profile .additional-info {
+  display: flex;
+}
+.profile .additional-info p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: red;
+}
+.profile section h3 {
+  background: blue;
+  text-transform: uppercase;
+}
+.profile section .input-group {
+  display: flex;
+  flex-direction: column;
+}
+.profile section .input-group input {
+  width: 140px;
+}/*# sourceMappingURL=style.css.map */

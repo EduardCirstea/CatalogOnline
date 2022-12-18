@@ -9,22 +9,24 @@ const protect = asyncHandler(async (req, res, next) => {
     req.headers.authorization.startsWith('Bearer')
   ) {
     try {
-      // Get token from header
+      //get token from header
       token = req.headers.authorization.split(' ')[1]
-      // Verify token
+      //Verify token
       const decoded = jwt.verify(token, process.env.JWT_SECRET)
-      // Get user from token
+      //Get user from token
       req.user = await User.findById(decoded.id).select('-password')
       next()
-    } catch (error) {
-      console.log(error)
+    } catch (err) {
+      console.log(err)
       res.status(401)
       throw new Error('Not authorized')
     }
   }
+
   if (!token) {
     res.status(401)
     throw new Error('Not authorized')
   }
 })
+
 module.exports = { protect }

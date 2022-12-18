@@ -1,4 +1,4 @@
-function Input({ type, label, message, name, value, onChange, required }) {
+function Input({ type, label, message, name, value, onChange }) {
   return (
     <div className="form-group">
       <label htmlFor={name}>{label}</label>

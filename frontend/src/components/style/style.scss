@@ -5,9 +5,9 @@
   align-items: center;
   font-size: 40px;
   border-bottom: 7px dotted red;
+  .icon {
+    position: absolute;
+    bottom: -40px;
+    right: -20px;
+  }
 }
-.logo .icon {
-  position: absolute;
-  bottom: -40px;
-  right: -20px;
-}/*# sourceMappingURL=style.css.map */

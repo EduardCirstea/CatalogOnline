@@ -8,8 +8,9 @@
   margin-top: 20px;
 
   &-primary {
-    color: $primary-color;
-    background: rgb(203, 66, 66);
+    color: $white-color;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid $black-color;
   }
   &-block {
     display: inline-block;

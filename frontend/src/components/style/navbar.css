@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 20px 10px 20px 30px;
+  padding: 10px 10px 15px 10px;
   color: #fff;
   font-size: 14px;
 }
@@ -11,11 +11,18 @@
   flex-direction: column;
   font-size: 10px;
 }
+.nav-container .user-link {
+  position: absolute;
+  bottom: 120px;
+}
+.nav-container .p {
+  font-size: 13px;
+}
 .nav-container a {
   color: #32d2d2;
 }
 .nav-container a:hover {
-  color: #fff;
+  color: #ddd;
   text-decoration: underline;
 }
 .nav-container .link-register {
@@ -36,7 +43,54 @@
   font-size: 8px;
 }
 .nav-container .logo-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.nav-container .logout {
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+  background-color: transparent;
+  border-bottom: 1px solid #333;
+  width: 90%;
+}
+.nav-container .logout:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.nav-container .info1 h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.nav-container .info1 p {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.nav-container .info-student h3 {
+  font-size: 14px;
+  text-decoration: underline;
+  margin: 0;
+}
+.nav-container .info-student .info-group {
   display: flex;
-  box-shadow: 10px 10px 5px white;
-  box-shadow: -8px -8px 5px white;
+  align-items: center;
+}
+.nav-container .info-student .info-group span {
+  font-size: 12px;
+}
+.nav-container .info-student .info-group label {
+  margin-right: 10px;
+  font-size: 10px;
+}
+.nav-container .links {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-container .links a {
+  padding: 5px 0px 5px 20px;
+}
+.nav-container .links a:hover {
+  border-bottom: 1px solid #32d2d2;
+  opacity: 0.8;
+  text-decoration: none;
 }/*# sourceMappingURL=navbar.css.map */
